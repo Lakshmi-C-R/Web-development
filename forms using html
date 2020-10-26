@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <title>TECHNOLOGY CAMPUS</title>
+    </head>
+    <body><h2>USER INFO</h2>
+        <form>
+            <label for="firstname">First name:</label>
+                <input type="text" id="firstname" name= "firstname"/><br>
+            <label for="lastname">Last name:</label>
+                <input type="text" id="lastname" name="lastname"/><br>
+            <label for="email">Email:</label>
+                <input type="email" id="email" name="email"/><br>
+            <label for="password">New Password:</label>
+                <input type="password" id="password" name="password"/><br>
+            <label for="year">Year:</label><br>
+                <input type="radio" id="year" name="year" value="I"/>I<br>
+                <input type="radio" id="year" name="year" value="II"/>II<br>
+                <input type="radio" id="year" name="year" value="III"/>III<br>
+                <input type="radio" id="year" name="year" value="IV"/>IV<br>
+            <label for="dept">Department:</label><br>
+                <input type="radio" id="dept" name="dept" value="CSE"/>CSE<br>
+                <input type="radio" id="dept" name="dept" value="ECE"/>ECE<br>
+                <input type="radio" id="dept" name="dept" value="MECH"/>MECH<br>
+                <input type="radio" id="dept" name="dept" value="EEE"/>EEE<br>
+            Domain:<br>
+                <input type="checkbox" id="AI" name="AI" value="AI"/>
+                <label for="AI">AI:</label><br>
+                <input type="checkbox" id="Web evelopment" name="Web development" value="Webdevelopment"/>
+                <label for="Web development">Web development:</label><br>
+                <input type="checkbox" id="Android development" name="Android development" value="Android development"/>
+                <label for="Android development">Android development:</label><br>
+                <input type="Submit" value="Submit">
+		<input type="reset" value="Reset"
+        </form>
+    </body>
+</html>
